@@ -37,7 +37,7 @@ namespace prog_icetask2
             students.Add(new Student("Thabo", "ST002", 65));
             students.Add(new Student("Mpho", "ST003", 82));
             students.Add(new Student("Kagiso", "ST004", 91));
-            students.Add(new Student("Naledi", "ST00", 74));
+            students.Add(new Student("Naledi", "ST005", 74));
 
             Console.WriteLine("Student data loaded successfully.");
         }
@@ -46,7 +46,7 @@ namespace prog_icetask2
         {
             Console.WriteLine("Generating student report...");
 
-            await Task.Delay(3000);
+            await Task.Delay(300);
 
             Console.WriteLine("Report generated successfully.");
             Console.WriteLine();
